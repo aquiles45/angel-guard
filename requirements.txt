@@ -1,0 +1,7 @@
+# Angel Guard - dependencias (Python 3.x).  Rodar:  pip install -r requirements.txt  &&  python AngelGuard.py
+psutil
+numpy
+lightgbm
+PyQt5
+# Obs.: ha tambem imports de PyQt6 no codigo - padronize em UMA versao (PyQt5 OU PyQt6).
+# tkinter, sqlite3 e winreg fazem parte da biblioteca padrao do Python (Windows).
