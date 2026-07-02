@@ -1,10 +1,34 @@
-# angel-guard anti-ransonware 
+# 🛡️ Angel Guard
 
-# Sistema de Detecção do Angle Guard
+**Anti-ransomware comportamental em Python + Machine Learning (LightGBM).** Detecta ransomware por comportamento com 6 camadas — assinatura/hash, extensão, padrão de nome, entropia, localização e monitoramento de processos em tempo real — com logging de auditoria e alertas.
+
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=white)
+![LightGBM](https://img.shields.io/badge/ML-LightGBM-0d1117?style=flat-square)
+![PyQt5](https://img.shields.io/badge/GUI-PyQt5-0d1117?style=flat-square&logo=qt&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-0d1117?style=flat-square&logo=sqlite&logoColor=white)
+
+> 📊 **Resultado (laboratório controlado):** > 95% de detecção e < 2% de falsos positivos. Metodologia, limitações e contexto de teste descritos abaixo.
+
+## 🚀 Como rodar
+```bash
+git clone https://github.com/aquiles45/angel-guard.git
+cd angel-guard
+pip install -r requirements.txt
+python AngelGuard.py
+```
+Requer Python 3.x (Windows). Dependências: `psutil`, `numpy`, `lightgbm`, `PyQt5` (ver `requirements.txt`).
+
+## 🖼️ Screenshots
+*Em breve — capturas da interface e de uma detecção em ação.*
+
+## ⚠️ Uso responsável
+Projeto de estudo/pesquisa executado em **ambiente de laboratório controlado**. As métricas vêm de dataset/cenários de teste próprios; não é um produto de produção.
+
+---
 
 ## Visão Geral
 
-O Angle Guard implementa um sistema de detecção de ameaças multicamadas que combina detecção tradicional baseada em assinaturas com análise avançada e monitoramento comportamental. O sistema opera em dois modos
+O Angel Guard implementa um sistema de detecção de ameaças multicamadas que combina detecção tradicional baseada em assinaturas com análise avançada e monitoramento comportamental. O sistema opera em dois modos
 
 ## Métodos de Detecção
 
